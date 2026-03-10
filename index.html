@@ -1,1 +1,40 @@
-index.html
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Mutterschutzrechner</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app-wrapper">
+<div class="calculator-container">
+
+<h2 class="main-title">Mutterschutzrechner</h2>
+<p class="subtitle">Berechnen Sie Ihre Mutterschutzfristen</p>
+
+<div class="form-group">
+<label for="et-date">Errechneter Entbindungstermin</label>
+<input type="date" id="et-date">
+</div>
+
+<div class="form-group">
+<label for="actual-date">Tatsächlicher Entbindungstermin</label>
+<input type="date" id="actual-date">
+</div>
+
+<button id="calculate-btn">Berechnen</button>
+
+<div id="results"></div>
+
+</div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
