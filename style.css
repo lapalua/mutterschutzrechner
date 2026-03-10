@@ -2,7 +2,7 @@ body { box-sizing: border-box; }
 .app-wrapper { box-sizing: border-box; width: 100%; min-height: 100%; padding: 2rem 1rem; } 
 .app-wrapper * { box-sizing: border-box; } 
 .calculator-container { background: white; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07); border: 1px solid #e2e8f0; padding: 2.5rem; max-width: 700px; width: 100%; margin: 0 auto; } 
-.main-title { color: #1a202c; margin: 0 0 0.5rem 0; font-size: 2.25rem; font-weight: 700; text-align: center; line-height: 1.2; } 
+.headline-cta { color: #1a202c; margin: 0 0 0.5rem 0; font-size: 2.25rem; font-weight: 700; text-align: center; line-height: 1.2; } 
 .subtitle { color: #4a5568; text-align: center; margin: 0 0 2.5rem 0; font-size: 1.125rem; font-weight: 400; } 
 .form-group { margin-bottom: 1.75rem; } 
 .form-group label { display: block; color: #2d3748; font-weight: 600; margin-bottom: 0.75rem; font-size: 1rem; } 
