@@ -5,7 +5,7 @@ const container = document.getElementById("mutterschutz-container");
 container.innerHTML = `
 <div class="app-wrapper">
   <div class="calculator-container">
-    <h2 class="headline-cta">Mutterschutzrechner</h2>
+    <h1 class="headline-cta">Mutterschutzrechner</h1>
     <p class="subtitle">Berechnen Sie Ihre Mutterschutzfristen</p>
 
     <div class="form-group">
